@@ -1,5 +1,5 @@
-# soundgrabber
+# Epidemic Sound Grabber bot
 
 `v.BOMZH`
 
-Epidemic Sound grabber
+Able to load the album page from the link from the chat and return the prepared information post
