@@ -8,6 +8,10 @@
 import main         # Main Sound Grabber code   #
 import config       # Configuration file        #
 import logging      # Logging all code          #
+import sys
+
+sys.stdin.reconfigure(encoding='utf-8')
+sys.stdout.reconfigure(encoding='utf-8')
                                                 #
 #################################################
 
@@ -21,7 +25,7 @@ dp = Dispatcher(bot)
 def start():
     executor.start_polling(dp, skip_updates=True)
 
-print("\nTelegram bot starts\n")
+print("\n    Shalom, Mark!\n    Telegram bot in touch\n")
 
 @dp.message_handler(content_types=["text"])
 async def get_album_source(message: types.Message):
